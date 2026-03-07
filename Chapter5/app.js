@@ -18,5 +18,23 @@
 
 // (B section)
 
-let num3 = prompt("Enter your First Name")
-let num5 = prompt("Enter your Second Name")
+// let num6 = prompt("Enter your First Name")
+// let num7 = prompt("Enter your Second Name")
+// let multiTotal = num6 * num7
+
+// document.write(`Multiplication of ${num6} and ${num7} is ${multiTotal}`)
+
+
+// (C section)
+
+// let num8 = prompt("Enter your First Name")
+// let num9 = prompt("Enter your Second Name")
+
+
+// let Division = num8 / num9
+
+// document.write(`Division of ${num8} and ${num9} is ${Division}`)
+
+// (D section)
+
+
