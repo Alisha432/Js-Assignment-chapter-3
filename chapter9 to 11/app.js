@@ -86,3 +86,77 @@
 // document.write("Percentage: " + percentage.toFixed(2) + "%<br>");
 // document.write("Grade: " + grade + "<br>");
 // document.write("Remarks: " + remarks + "<br>");
+
+// question 7
+
+// // Secret number between 1 and 10
+// let secretNumber = 7; // you can change it
+// let userGuess = +prompt("Guess the secret number (1-10):");
+
+// if (userGuess === secretNumber) {
+//     alert("Bingo! Correct answer");
+// } else if (userGuess + 1 === secretNumber || userGuess - 1 === secretNumber) {
+//     alert("Close enough to the correct answer");
+// } else {
+//     alert("Wrong guess! Try again.");
+// }
+
+// question 8
+
+// let number = +prompt("Enter a number to check if divisible by 3:");
+
+// if (number % 3 === 0) {
+//     alert(number + " is divisible by 3.");
+// } else {
+//     alert(number + " is not divisible by 3.");
+// }
+
+// question 9
+
+// let num = +prompt("Enter a number to check if it is even or odd:");
+
+// if (num % 2 === 0) {
+//     alert(num + " is an even number.");
+// } else {
+//     alert(num + " is an odd number.");
+// }
+
+// question 10
+
+// let temp = +prompt("Enter the temperature in °C:");
+
+// if (temp > 40) {
+//     alert("It is too hot outside.");
+// } else if (temp > 30) {
+//     alert("The Weather today is Normal.");
+// } else if (temp > 20) {
+//     alert("Today's Weather is cool.");
+// } else if (temp > 10) {
+//     alert("OMG! Today’s weather is so Cool.");
+// } else {
+//     alert("Brrr! It’s very cold today.");
+// }
+
+// question 11
+
+
+// let num1 = +prompt("Enter the first number:");
+// let num2 = +prompt("Enter the second number:");
+// let operation = prompt("Enter operation (+, -, *, /, %):");
+// let result;
+
+// if (operation === "+") {
+//     result = num1 + num2;
+// } else if (operation === "-") {
+//     result = num1 - num2;
+// } else if (operation === "*") {
+//     result = num1 * num2;
+// } else if (operation === "/") {
+//     result = num1 / num2;
+// } else if (operation === "%") {
+//     result = num1 % num2;
+// } else {
+//     result = "Invalid operation!";
+// }
+
+// alert("Result: " + result);
