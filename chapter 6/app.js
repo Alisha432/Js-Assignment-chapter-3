@@ -87,33 +87,7 @@
 // document.write(num + " x 10 = " + (num * 10) + "<br>");
 
 
-// Question 05
 
-
-let subject1 = +prompt("Enter your first subject name")
-let subject2 = +prompt("Enter your second subject name")
-let subject3 = +prompt("Enter your third subject name")
-
-document.write(`${subject1}`)
-document.write(`${subject2}`)
-document.write(`${subject3}`)
-
- let sub1Marks = 100
- let sub2Marks = 100
- let sub3Marks = 100
-
- 
-let obt1 = +prompt("Enter your first subject name")
-let  obt2 = +prompt("Enter your second subject name")
-let  obt3 = +prompt("Enter your second subject name")
-
-let obt1Marks = obt1
-let obt2Marks = obt2
-let obt3Marks = obt3
-
-let obtainMarks = obt1Marks + obt2Marks + obt3Marks
-
-document.write(`total number of all subject is ${obt1Marks}  ${obt2Marks} ${obt3Marks}`)
 
 
 
