@@ -42,50 +42,106 @@
 // }
 
 
-// question 6
-
-// let marks1 = +prompt("Enter marks for Subject 1:");
-// let marks2 = +prompt("Enter marks for Subject 2:");
-// let marks3 = +prompt("Enter marks for Subject 3:");
-
-// let totalMarks = +prompt("Enter total marks:");
-
-// // Step 2: Calculate total and percentage
-
-// let totalObtained = marks1 + marks2 + marks3;
-// let percentage = (totalObtained / totalMarks) * 100;
-
-// // Step 3: Determine grade and remarks
+// question 5
 
 
-// let grade, remarks;
-
-// if (percentage >= 80) {
-//     grade = "A+";
-//     remarks = "Excellent";
-// } else if (percentage >= 70) {
-//     grade = "A";
-//     remarks = "Very Good";
-// } else if (percentage >= 60) {
-//     grade = "B";
-//     remarks = "Good";
-// } else if (percentage >= 50) {
-//     grade = "C";
-//     remarks = "Needs Improvement";
-// } else {
-//     grade = "Fail";
-//     remarks = "Poor";
+// (a)
+// let a = 4;
+// if (++a === 5){
+//     alert("given condition for variable a is true");
 // }
 
-// // Step 4: Display results in 
+// // (b)
+// let b = 82;
+// if (b++ === 83){
+//     alert("given condition for variable b is true");
+// }
+
+// // (c)
+// let c = 12;
+
+// if (c++ === 13){
+//     alert("condition 1 is true");
+// }
+
+// if (c === 13){
+//     alert("condition 2 is true");
+// }
+
+// if (++c < 14){
+//     alert("condition 3 is true");
+// }
+
+// if (c === 14){
+//     alert("condition 4 is true");
+// }
+
+// // (d)
+// let materialCost = 20000;
+// let laborCost = 2000;
+// let totalCost = materialCost + laborCost;
+
+// if (totalCost === laborCost + materialCost){
+//     alert("The cost equals");
+// }
+
+// // (e)
+// if (true){
+//     alert("True");
+// }
+
+// if (false){
+//     alert("False");
+// }
+
+// // (f)
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+// }
+
+// question 6
 
 
-// document.write("<h2>Marks Sheet</h2>");
-// document.write("Total Marks: " + totalMarks + "<br>");
-// document.write("Marks Obtained: " + totalObtained + "<br>");
-// document.write("Percentage: " + percentage.toFixed(2) + "%<br>");
-// document.write("Grade: " + grade + "<br>");
-// document.write("Remarks: " + remarks + "<br>");
+// Subjects marks 
+let subject1 = +prompt("Enter marks of Subject 1:");
+let subject2 = +prompt("Enter marks of Subject 2:");
+let subject3 = +prompt("Enter marks of Subject 3:");
+
+// Total marks
+let totalMarks = +prompt("Enter total marks:");
+
+// Obtained marks calculate 
+let obtainedMarks = subject1 + subject2 + subject3;
+
+// Percentage calculate 
+let percentage = (obtainedMarks / totalMarks) * 100;
+
+// Grade 
+let grade;
+
+if (percentage >= 80) {
+    grade = "A+";
+} 
+else if (percentage >= 70) {
+    grade = "A";
+} 
+else if (percentage >= 60) {
+    grade = "B";
+} 
+else if (percentage >= 50) {
+    grade = "C";
+} 
+else {
+    grade = "Fail";
+}
+
+// Simple output 
+console.log("Result<br>");
+console.log("Total Marks: " + totalMarks + "<br>");
+console.log("Obtained Marks: " + obtainedMarks + "<br>");
+console.log("Percentage: " + percentage + "%<br>");
+console.log("Grade: " + grade);
+
 
 // question 7
 
