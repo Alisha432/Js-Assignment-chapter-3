@@ -41,35 +41,119 @@
 
 // question : 9
 
-// a
-let colors = ["red" , "violet" , "magenda" , "pink"]
-document.write(`Orignal Colors ${colors} <br>`)
+// // a
+// let colors = ["red" , "violet" , "magenda" , "pink"]
+// document.write(`Orignal Colors ${colors} <br>`)
 
-// b
-let userColor = prompt("Which color do you want to add at the beginning") 
+// // b
+// let userColor = prompt("Which color do you want to add at the beginning") 
 
-colors.unshift(userColor)
-document.write(`Updated Color: ${colors} <br>`)
+// colors.unshift(userColor)
+// document.write(`Updated Color: ${colors} <br>`)
 
-// c
-let lastColor = prompt("Which color do you want to add at the end") 
+// // c
+// let lastColor = prompt("Which color do you want to add at the end") 
 
-colors.push(lastColor)
-document.write(`Updated Color: ${colors} <br>`)
-
-
-// d
-
-colors.unshift("Black" , "White")
-document.write(`Orignal Colors ${colors} <br>`)
+// colors.push(lastColor)
+// document.write(`Updated Color: ${colors} <br>`)
 
 
-// e
+// // d
 
-colors.shift()
-document.write(`Updated Colors after removing first color: ${colors} <br>`)
+// colors.unshift("Black" , "White")
+// document.write(`Orignal Colors ${colors} <br>`)
 
 
-// f
-colors.pop()
-document.write(`Updated Colors after removing last color: ${colors} <br>`)
+// // e
+
+// colors.shift()
+// document.write(`Updated Colors after removing first color: ${colors} <br>`)
+
+
+// // f
+// colors.pop()
+// document.write(`Updated Colors after removing last color: ${colors} <br>`)
+
+// // g
+// let color = ["red", "green", "blue", "yellow", "pink"];
+// document.write("Original Array: " + colors + "<br><br>");
+
+
+// let index = +prompt("Enter index number where you want to delete color(s):");
+
+
+// let deleteCount = +prompt("How many colors do you want to delete?");
+
+
+// colors.splice(index, deleteCount);
+
+// document.write("Updated Array: " + colors);
+
+
+
+// question 10
+
+// let score = [120,320,540]
+
+// console.log (score [2])
+
+
+
+// question 11
+
+// let cities = ["Karachi", "Lahore", "Islamabad", "Quetta", "Peshawar"];
+
+// let selectedCities = cities.slice(0, 3);
+
+
+// document.write("Cities List: " + cities + "<br><br>");
+// document.write("Selected Cities List: " + selectedCities);
+
+
+
+
+// question 12
+
+// let arr = ["This","is", "my", "cat"]; 
+
+// console.log(arr.join(" "))
+
+
+// question 13
+
+
+// let device = ["Keyboard", "mouse", "moniter", "printer"]
+
+// console.log(device)
+// console.log(device.shift())
+
+// console.log(device)
+
+// console.log(device.shift())
+
+// console.log(device)
+
+// console.log(device.shift())
+
+// console.log(device)
+
+// console.log(device.shift())
+
+// console.log(device)
+
+
+// question 14
+
+// let country = ["japan", "america", "dubai"]
+
+// console.log(country.pop())
+
+// console.log(country)
+
+// console.log(country.pop())
+
+// console.log(country)
+
+// console.log(country.pop())
+
+// console.log(country)
