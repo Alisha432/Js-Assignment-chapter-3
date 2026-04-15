@@ -102,6 +102,70 @@
 //   document.write(i + "k, ");
 // }
 
-
-
 // question 7
+
+
+// let items = ["cake", "apple pie", "cookie", "chips", "patties"];
+
+// let userInput = prompt("Enter item to search");
+
+// let found = false;
+
+// for (let i = 0; i <  items.length; i++) {
+
+//   if (userInput ===  items[i]) {
+//     found = true;
+//     alert(userInput + " is available in the list");
+//     break;
+//   }
+
+// }
+
+// if (found === false) {
+//   alert(userInput + " is not available in the list");
+// }
+
+
+
+
+
+// question 8
+
+
+// let large = [24, 53, 78, 91, 12];
+
+// let largest = large[0];
+
+// for (let i = 1; i < large.length; i++) {
+//   if (large[i] > largest) {
+//     largest = large[i];
+//   }
+// }
+
+// console.log(largest);
+
+
+
+// question 9
+
+
+// let small = [24, 53, 78, 91, 12];
+
+// let smallest  = small[0];
+
+// for (let i = 1; i < small.length; i++) {
+//   if (small[i] < smallest ) {
+//     smallest  = small[i];
+//   }
+// }
+
+// console.log(smallest );
+
+
+
+// question 10
+
+
+// for (let i = 5; i <= 100; i += 5) {
+//   console.log(i);
+// }
